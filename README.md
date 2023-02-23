@@ -12,7 +12,7 @@ The processes for your scheduling algorithms is read from a file as the first ar
 
 Every line in this file includes a record with comma separated fields.
 
-The format for this record is the following: <ProcessID>,<Burst Duration>,<Arrival Time>,<Priority>.
+The format for this record is the following: *ProcessID*, *Burst Duration*, *Arrival Time*, *Priority*.
 
 Not all fields are used by all scheduling algorithms. For example, for FCFS you only need the process IDs, arrival times, and burst durations.
 
